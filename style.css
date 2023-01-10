@@ -1,0 +1,194 @@
+body {
+    font-family: "Montserrat";
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #88BDBC;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* tittle image */
+.title-image {
+    width: 95%;
+}
+
+
+/* FEATURES */
+#feature {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.fa-4x {
+    color: #88BDBC;
+    margin-bottom: 1 rem;
+}
+
+.icon:hover {
+    color: #254E58;
+}
+
+
+/* TESTIMONIALS */
+#testimonials {
+    padding: 2% 10%;
+    text-align: center;
+    background-color: #254E58;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+}
+
+.work-image {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+
+/* Contact */
+
+#contact {
+    background-color: #88BDBC;
+}
+
+.contact-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 0% 15% 5% 15%;
+    color: white;
+}
+
+
+.form-heading {
+    color: white;
+    padding-bottom: 5%;
+    font-size: 2.5rem;
+}
+
+.form-label {
+    color: white;
+    padding-top: 5%;
+}
+
+
+.address-text {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.submit-button {
+    margin: 3%;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: white;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: black;
+}
+
+#footer .container-fluid {
+    padding: 5% 12% 2%;
+
+}
+
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .big-heading {
+        font-size: 1.8rem;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
